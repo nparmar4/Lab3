@@ -14,9 +14,9 @@ Description : Understanding Old-School HTML Layouts.
     <style>
         table { width: 100%; }
         td { vertical-align: top;}
-        
-        td { border: 1px dashed gray; } 
-        
+       /* 
+       td { border: 1px dashed gray; } 
+        */
         #header, #footer { background-color: #f2f2f2; text-align: center; padding: 10px; }
         #menu { width: 150px; background-color: #e6e6e6; }
         #main { padding: 15px; }
@@ -65,7 +65,7 @@ Description : Understanding Old-School HTML Layouts.
                     </td>
                 </tr>
                 <tr>
-                    
+                <table> 
                     <td class="small news-item" colspan="2">
                         <!-- Small news item -->
 
@@ -73,7 +73,7 @@ Description : Understanding Old-School HTML Layouts.
                             <h1>Calgary's Natural Beauty Captivates Tourists</h1>
                         </header>
                         
-                        <img src="images/small.jpg" alt="Small Image" width="30%">
+                        <img src="images/small.jpg" alt="Small Image" width="100%">
                         
                         <article>
                             <h2>Emerald Oasis in the Heart of the City</h2>
@@ -93,7 +93,7 @@ Description : Understanding Old-School HTML Layouts.
                             <h1>Mahdi Ansari Takes a Historic Spacewalk Near the ISS</h1>
                         </header>
 
-                        <img src="images/medium.jpg" alt="Medium Image" width="70%">
+                        <img src="images/medium.jpg" alt="Medium Image" width="100%">
                         <article>
                             <h2>A Historic Moment in Space Exploration</h2>
                             <p>In an unprecedented feat of human courage and technological prowess, astronaut Mahdi Ansari completed a spacewalk near the International Space Station (ISS), marking a new milestone in space exploration.</p>
@@ -105,7 +105,7 @@ Description : Understanding Old-School HTML Layouts.
                             <p>The successful spacewalk not only demonstrates human resilience but also advances our understanding of space and our capabilities to explore further into the unknown.</p>
                         </article>
                     </td>                
-                    
+                </table>
                 </tr>
             </table>
             
