@@ -69,8 +69,10 @@ Description : A simple HTML file for form tag.
 			<textarea id="feedback" name="feedback" rows="5" placeholder="Enter feedback here"></textarea><br>
             <label for="file">File:</label><br>
             <input type="file" id="file" name="file"><br>
-            <!-- Add a checkbox for 'Subscribe to newsletter' -->
-            <!-- Add a hidden field for 'customerId', set its value to '12345' -->
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+            <label for="customerId">Customer ID:</label>
+            <input type="hidden" id="customerId" name="customerId" value="12345"><br>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </fieldset>
