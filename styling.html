@@ -44,18 +44,20 @@ Description : Learning CSS.
         */
 
         .block-demo > .inline-demo:first-child {            
-            /*
-            Add CSS that I stick the first child to the left side of the screen.
-            */
+            float: left;
             color: red;
             
         }
 
         .block-demo > .inline-demo:nth-child(2) {            
+            margin: 0 auto;
             color: blue;
         }
 
-        /* Add your css for the thrid child here. */
+        .block-demo > .inline-demo:nth-child(3) {
+            float: right;
+            color: green;
+        }
 
         .image-demo {
             /* Modify the .image-demo class to adjust the image's width to 50% of the screen. */
